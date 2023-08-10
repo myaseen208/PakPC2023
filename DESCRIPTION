@@ -11,14 +11,13 @@ Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
 Description: Provides data sets and functions for exploration of Pakistan Population Census 2023 (<http://www.pbscensus.gov.pk/>).
 Depends: R (>= 3.1)
 Imports: 
-  dplyr,
-  magrittr,
-  stats
 License: GPL-2
 URL: https://github.com/MYaseen208/PakPC2023
 LazyData: TRUE
 RoxygenNote: 7.2.3
 Suggests: 
     R.rsp,
+    knitr,
+    rmarkdown,
     testthat
-VignetteBuilder: R.rsp
+VignetteBuilder: knitr

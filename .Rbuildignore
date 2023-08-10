@@ -3,3 +3,7 @@
 ^packrat/
 ^\.Rprofile$
 ^cran-comments\.md$
+^CRAN-RELEASE$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
