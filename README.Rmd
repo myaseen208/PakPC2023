@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 ###### Version : [`r getNamespaceVersion("PakPC2023")`](https://myaseen208.com/PakPC2023/); Copyright (C) 2019-2020: License: [GPL-2|GPL-3](https://www.r-project.org/Licenses/)
 
 
-##### *Muhammad Yaseen^1,2,3^, and Muhammad Arfan Dilber^4^*
+##### *Muhammad Yaseen^1,2,3^, and Muhammad Arfan Dilber^4^, and Zahid Asghar^5^*
 
 1. Asian Development Bank (ADB), Islamabad, Pakistan.
 
@@ -25,6 +25,8 @@ knitr::opts_chunk$set(
 3. Department of Mathematics and Statistics, University of Agriculture Faisalabad, Pakistan.
 
 4. Pakistan Bureau of Statistics.
+
+5. School of Economics, Quaid-i-Azam University, Islamabad, Pakistan.
 
 ***
 
