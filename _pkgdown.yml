@@ -1,8 +1,8 @@
-url: https://myaseen208.github.io/DiallelAnalysisR/
+url: https://myaseen208.github.io/PakPC2023/
 
 home:
-  title: DiallelAnalysisR
-  description: Diallel Analysis with R
+  title: PakPC2023
+  description: Pakistan Population Census 2023
 
 
 template:
@@ -11,7 +11,7 @@ template:
     ganalytics: UA-116716530-2
     docsearch:
       api_key: bdafb7ea4490644e670f470ee3ef537f
-      index_name: DiallelAnalysisR
+      index_name: PakPC2023
 
 
 toc:
@@ -20,15 +20,17 @@ toc:
 authors:
   Muhammmad Yaseen:
     href: https://www.researchgate.net/profile/Muhammad_Yaseen10
-  Kent M. Eskridge:
-    href: https://www.researchgate.net/profile/Kent_Eskridge
+  Muhammad Arfan Dilber:
+    href: 
+  Zahid Asghar:
+    href:   
 
 development:
   mode: unreleased
 
 
 navbar:
-  title: DiallelAnalysisR
+  title: PakPC2023
   type: default
   left:
     - icon: fa-home fa-lg
@@ -42,7 +44,7 @@ navbar:
       href: news/index.html
   right:
     - icon: "fa-github"
-      href: https://github.com/myaseen208/eda4treeR
+      href: https://github.com/myaseen208/PakPC2023
     - text: "RG"
       href: https://www.researchgate.net/profile/Muhammad_Yaseen10
     - icon: "fab fa-twitter"
@@ -51,17 +53,6 @@ navbar:
 reference:
     - title: Data Sets
       contents:
-         - '`GriffingData1`'
-         - '`GriffingData2`'
-         - '`GriffingData3`'
-         - '`GriffingData4`'
-         - '`HaymanData`'
-         - '`PartialDiallelData`'
-
-
-    - title: Core anlaysis function
-      contents:
-         - '`Griffing`'
-         - '`Hayman`'
-         - '`PartialDiallel`'
-
+         - '`PakPC2023Pak`'
+         - '`PakPC2023PakDist`'
+         - '`PakPC2023PakDiv`'
