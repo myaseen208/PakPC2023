@@ -41,7 +41,7 @@ navbar:
       href: reference/index.html
     - icon: fa-file-o
       text: Vignette
-      href: doc/PakPC2023Intro.html
+      href: articles/PakPC2023Intro.html
     - icon: fa-newspaper-o
       text: News
       href: news/index.html
