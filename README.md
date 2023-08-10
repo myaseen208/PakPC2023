@@ -83,14 +83,14 @@ To cite the methods in the package use:
 citation("PakPC2023")
 Please, support this project by citing it in your publications!
 
-  Yaseen M, Dilber MA (2023). _PakPC2023: Pakistan Population Census
-  2023_.
+  Yaseen M, Dilber MA, Asghar Z (2023). _PakPC2023: Pakistan Population
+  Census 2023_.
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
     title = {PakPC2023: Pakistan Population Census 2023},
-    author = {Muhammad Yaseen and Muhammad Arfan Dilber},
+    author = {Muhammad Yaseen and Muhammad Arfan Dilber and Zahid Asghar},
     year = {2023},
     journal = {The Comprehensive R Archive Network (CRAN)},
   }
