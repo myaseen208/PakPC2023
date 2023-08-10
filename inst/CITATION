@@ -2,7 +2,7 @@ bibentry(
   "manual",
   header = "Please, support this project by citing it in your publications!",
   title = "PakPC2023: Pakistan Population Census 2023",
-	author = "Muhammad Yaseen, Muhammad Arfan Dilber",
+	author = "Muhammad Yaseen, Muhammad Arfan Dilber, Zahid Asghar",
   year = 2023,
   journal = "The Comprehensive R Archive Network (CRAN)",
 )

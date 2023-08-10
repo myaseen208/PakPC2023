@@ -21,9 +21,9 @@ authors:
   Muhammmad Yaseen:
     href: https://www.researchgate.net/profile/Muhammad_Yaseen10
   Muhammad Arfan Dilber:
-    href: 
+    href: https://www.researchgate.net/profile/Muhammad_Yaseen10
   Zahid Asghar:
-    href:   
+    href: https://www.researchgate.net/profile/Zahid-Asghar-2  
 
 development:
   mode: unreleased
@@ -49,9 +49,21 @@ navbar:
     - icon: "fa-github"
       href: https://github.com/myaseen208/PakPC2023
     - text: "RG"
-      href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+      menu:
+        - text: "MYaseen208"
+          href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+        - text: "MAD"
+          href: 
+        - text: "ZA"
+          href: https://www.researchgate.net/profile/Zahid-Asghar-2
     - icon: "fab fa-twitter"
-      href: https://twitter.com/myaseen208
+      menu:
+        - text: "MYaseen208"
+          href: https://twitter.com/myaseen208
+        - text: "MAD"
+          href: https://twitter.com/arfan_dilber
+        - text: "ZA"
+          href: https://twitter.com/zahedasghar
 
 reference:
     - title: Data Sets
