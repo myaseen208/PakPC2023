@@ -11,12 +11,19 @@ Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
 Description: Provides data sets and functions for exploration of Pakistan Population Census 2023 (<http://www.pbscensus.gov.pk/>).
 Depends: R (>= 3.1)
 License: GPL-2
-URL: https://github.com/MYaseen208/PakPC2023
 LazyData: TRUE
 RoxygenNote: 7.2.3
-Suggests: 
-    R.rsp,
+URL: https://github.com/myaseen208/PakPC2023
+     https://myaseen208.com/PakPC2023/
+BugReports: https://github.com/myaseen208/PakPC2023/issues
+Imports:
+    DT,
+    htmltools
+Suggests:
     knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
+Note: 1. Asian Development Bank (ADB), Islamabad, Pakistan.
+      2. Benazir Income Support Programme (BISP), Islamabad, Pakistan.
+      3. Department of Mathematics and Statistics, University of Agriculture Faisalabad, Faisalabad-Pakistan.

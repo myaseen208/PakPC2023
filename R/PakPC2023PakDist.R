@@ -25,7 +25,9 @@
 #' @seealso
 #'    \code{\link{PakPC2023Pak}}
 #'  , \code{\link{PakPC2023PakDiv}}
-#'
+#' 
+#' @import DT htmltools
+#' 
 #' @examples
 #' data(PakPC2023PakDist)
 NULL

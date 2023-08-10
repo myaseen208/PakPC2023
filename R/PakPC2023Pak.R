@@ -20,11 +20,13 @@
 #' @references \enumerate{
 #' \item Pakistan Population Census 2023 (\url{http://www.pbscensus.gov.pk/}).
 #'  }
-#'
+#' 
 #' @seealso
 #'    \code{\link{PakPC2023PakDiv}}
 #'  , \code{\link{PakPC2023PakDist}}
 #'
+#' @import DT htmltools
+#' 
 #' @examples
 #' data(PakPC2023Pak)
 NULL
