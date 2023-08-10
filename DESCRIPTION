@@ -1,0 +1,23 @@
+Package: PakPC2023
+Type: Package
+Title: Pakistan Population Census 2023
+Version: 0.1.0
+Authors@R: c(
+              person(c("Muhammad", "Yaseen"),  email = "myaseen208@gmail.com", role = c("aut", "cre"))
+            , person(c("Muhammad", "Arfan", "Dilber"),  email = "pbsfsd041@gmail.com", role = c("ctb"))
+            )
+Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
+Description: Provides data sets and functions for exploration of Pakistan Population Census 2023 (<http://www.pbscensus.gov.pk/>).
+Depends: R (>= 3.1)
+Imports: 
+  stats,
+  dplyr,
+  magrittr
+License: GPL-2
+URL: https://github.com/MYaseen208/PakPC2023
+LazyData: TRUE
+RoxygenNote: 7.2.3
+Suggests: 
+    R.rsp,
+    testthat
+VignetteBuilder: R.rsp
