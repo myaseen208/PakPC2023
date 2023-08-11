@@ -27,7 +27,7 @@ data(PakPC2023Pak)
 }
 \references{
 \enumerate{
-\item Pakistan Population Census 2023 (\url{http://www.pbscensus.gov.pk/}).
+\item Pakistan Population Census 2023 (\url{https://www.pbs.gov.pk/}).
  }
 }
 \seealso{

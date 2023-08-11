@@ -19,7 +19,7 @@
 #' @author Muhammad Yaseen (\email{myaseen208@@gmail.com})
 #'
 #' @references \enumerate{
-#' \item Pakistan Population Census 2023 (\url{http://www.pbscensus.gov.pk/}).
+#' \item Pakistan Population Census 2023 (\url{https://www.pbs.gov.pk/}).
 #'  }
 #'
 #' @seealso

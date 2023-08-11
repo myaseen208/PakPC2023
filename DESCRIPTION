@@ -8,7 +8,7 @@ Authors@R: c(
             , person(c("Zahid", "Asghar"),  email = "g.zahid@gmail.com", role = c("ctb"))
             )
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
-Description: Provides data sets and functions for exploration of Pakistan Population Census 2023 (<http://www.pbscensus.gov.pk/>).
+Description: Provides data sets and functions for exploration of Pakistan Population Census 2023 (<https://www.pbs.gov.pk/>).
 Depends: R (>= 3.1)
 License: GPL-2
 LazyData: TRUE

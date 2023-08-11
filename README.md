@@ -34,7 +34,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/PakPC2023?color=green)]
 [![Project Status:
 WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![Last-changedate](https://img.shields.io/badge/last%20change-2023--08--10-yellowgreen.svg)](https://github.com/myaseen208/PakPC2023)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2023--08--11-yellowgreen.svg)](https://github.com/myaseen208/PakPC2023)
 [![Rdoc](https://www.rdocumentation.org/badges/version/PakPC2023)](https://www.rdocumentation.org/packages/PakPC2023)
 
 ------------------------------------------------------------------------
@@ -42,7 +42,7 @@ WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.reposta
 ## Description
 
 Provides data sets and functions for exploration of Pakistan Population
-Census 2023 (<http://www.pbscensus.gov.pk/>).
+Census 2023 (<https://www.pbs.gov.pk/>).
 
 ## Installation
 
