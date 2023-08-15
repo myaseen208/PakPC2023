@@ -2,7 +2,9 @@
 title: "PakPC2023: Pakistan data from Pakistan Population Census 2023"
 author: "Muhammad Yaseen"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+output: 
+  bookdown::html_document2:
+      base_format: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{PakPC2023: Pakistan data from Pakistan Population Census 2023}
   %\VignetteEngine{knitr::rmarkdown}
@@ -57,15 +59,34 @@ datatable(
 
 <br>
 <br>
+<br>
 
-```{r, fig.cap = "Fig. 1: Population by Regions"}
+The figure \@ref(fig:Fig1)  shows the population of Pakistan by region. The data is based on the Pakistan Population Census 2023 and shows that Punjab has the highest population with 128 million people, followed by Sindh with 56 million people. Khyber Pakhtunkhwa and Balochistan have populations of 41 million and 15 million, respectively.
+
+<br>
+<br>
+
+```{r Fig1, fig.cap = "Population by Regions"}
 knitr::include_graphics("./images/Plot1.png")
 ```
 
 <br>
 <br>
 
-```{r, fig.cap = "Fig. 2: Population by Regions & Area"}
+Figure \@ref(fig:Fig2) shows the population of Pakistan by region and area. The data is based on the Pakistan Population Census 2023 and shows that the majority of the population in Pakistan lives in rural areas, with over 147.75 million people living in rural regions compared to just over 93.75  million people living in urban regions. Punjab has the highest rural population with over 75.71 million people, while Sindh has the highest urban population with over 29.92 million people.
+
+The figure is presented as a multiple bar chart, with each region represented by a different color. The y-axis shows the total population in millions.
+
+The data in Figure \@ref(fig:Fig2) highlights the urban-rural divide in Pakistan. The majority of the population lives in rural areas, with Punjab having the highest rural population of over 75.71 million people. This is followed by Sindh with over 25.77 million people living in rural areas. Balochistan has the smallest rural population with just over 4.61 million people.
+
+In terms of urban population, Punjab has the highest urban population with over 52.00 million people, followed by Sindh with over 29.90 million people. Khyber Pakhtunkhwa and Balochistan have the smallest urban populations with just over 6.10 million and 4.60 million people, respectively.
+
+
+<br>
+<br>
+
+
+```{r Fig2, fig.cap = "Population by Regions & Area"}
 knitr::include_graphics("./images/Plot2.png")
 ```
 

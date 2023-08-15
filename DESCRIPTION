@@ -1,7 +1,7 @@
 Package: PakPC2023
 Type: Package
 Title: Pakistan Population Census 2023
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
               person(c("Muhammad", "Yaseen"),  email = "myaseen208@gmail.com", role = c("aut", "cre"))
             , person(c("Muhammad", "Arfan", "Dilber"),  email = "pbsfsd041@gmail.com", role = c("ctb"))
