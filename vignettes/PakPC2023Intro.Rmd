@@ -5,6 +5,11 @@ date: "`r Sys.Date()`"
 output: 
   bookdown::html_document2:
       base_format: rmarkdown::html_vignette
+      fig_caption: yes
+      toc: true
+      toc_depth: 2
+pkgdown:
+  as_is: true
 vignette: >
   %\VignetteIndexEntry{PakPC2023: Pakistan data from Pakistan Population Census 2023}
   %\VignetteEngine{knitr::rmarkdown}
@@ -61,7 +66,14 @@ datatable(
 <br>
 <br>
 
-The figure \@ref(fig:Fig1)  shows the population of Pakistan by region. The data is based on the Pakistan Population Census 2023 and shows that Punjab has the highest population with 128 million people, followed by Sindh with 56 million people. Khyber Pakhtunkhwa and Balochistan have populations of 41 million and 15 million, respectively.
+The visual representation presented in Figure \@ref(fig:Fig1) provides a comprehensive overview of the population distribution across various regions of Pakistan. This data has been meticulously collected from the Pakistan Population Census of 2023, serving as an accurate reflection of the demographic landscape of the country.
+
+A closer examination of the graph reveals that the province of Punjab emerges as the most populous region, boasting an impressive population count of approximately 128 million individuals. Following closely, the province of Sindh contributes significantly to the nation's population with approximately 56 million residents.
+
+Turning our attention towards the remaining regions, Khyber Pakhtunkhwa stands as a substantial population center with around 41 million inhabitants, further emphasizing its role in the overall demographic makeup of Pakistan. On the other hand, Balochistan, while having a comparably smaller population, still contributes notably with around 15 million people.
+
+It is noteworthy that the data showcased in Figure \@ref(fig:Fig1) not only underscores the population sizes of these regions but also underscores the diversity and complexity of Pakistan's demographic distribution. This information serves as a valuable resource for policymakers, researchers, and anyone interested in gaining insights into the population dynamics of Pakistan.
+
 
 <br>
 <br>
@@ -73,13 +85,19 @@ knitr::include_graphics("./images/Plot1.png")
 <br>
 <br>
 
-Figure \@ref(fig:Fig2) shows the population of Pakistan by region and area. The data is based on the Pakistan Population Census 2023 and shows that the majority of the population in Pakistan lives in rural areas, with over 147.75 million people living in rural regions compared to just over 93.75  million people living in urban regions. Punjab has the highest rural population with over 75.71 million people, while Sindh has the highest urban population with over 29.92 million people.
+Figure \@ref(fig:Fig2) illustrates the distribution of Pakistan's population across various regions and areas, providing insights drawn from the Pakistan Population Census 2023. The data underscores a significant urban-rural divide within the country, shedding light on the demographic landscape.
 
-The figure is presented as a multiple bar chart, with each region represented by a different color. The y-axis shows the total population in millions.
+Notably, the data reveals that a substantial portion of Pakistan's population resides in rural areas, accounting for a staggering figure of more than 147.75 million individuals. In contrast, the urban population stands at slightly over 93.75 million. This distribution underscores the predominance of rural living conditions in Pakistan.
 
-The data in Figure \@ref(fig:Fig2) highlights the urban-rural divide in Pakistan. The majority of the population lives in rural areas, with Punjab having the highest rural population of over 75.71 million people. This is followed by Sindh with over 25.77 million people living in rural areas. Balochistan has the smallest rural population with just over 4.61 million people.
+Examining the regional disparities, the province of Punjab emerges as the leader in terms of rural population, boasting an impressive count of over 75.71 million inhabitants in rural settings. Sindh, on the other hand, leads the pack in urban population, hosting a significant urban community of over 29.92 million individuals.
 
-In terms of urban population, Punjab has the highest urban population with over 52.00 million people, followed by Sindh with over 29.90 million people. Khyber Pakhtunkhwa and Balochistan have the smallest urban populations with just over 6.10 million and 4.60 million people, respectively.
+The visualization takes the form of a multiple bar chart, with distinctive colors assigned to each region for clarity. The y-axis of the chart is scaled to represent the total population in millions, providing a clear sense of the demographic distribution.
+
+The data presented within Figure \@ref(fig:Fig2) serves to accentuate the pronounced urban-rural divide prevalent within Pakistan. The statistics reaffirm the prevalence of rural living conditions, with Punjab standing out as the province with the highest rural population, surpassing the 75.71 million mark. The second spot in terms of rural population is claimed by Sindh, hosting more than 25.77 million residents in rural areas. In contrast, Balochistan registers as the province with the lowest rural population, counting slightly over 4.61 million individuals.
+
+Shifting the focus to urban populations, Punjab once again takes the lead, this time in the urban category, as it accommodates a substantial urban populace exceeding 52.00 million. Sindh follows closely, contributing to the urban landscape with over 29.90 million inhabitants. In stark contrast, Khyber Pakhtunkhwa and Balochistan exhibit the smallest urban populations, each recording figures slightly surpassing 6.10 million and 4.60 million individuals, respectively.
+
+In conclusion, Figure \@ref(fig:Fig2) casts a spotlight on the demographic distribution within Pakistan, drawing attention to the prevailing urban-rural divide. The robust presentation of data underscores the dominance of rural populations, particularly in provinces like Punjab and Sindh, while also providing valuable insights into the urban landscape across various regions of the country.
 
 
 <br>
