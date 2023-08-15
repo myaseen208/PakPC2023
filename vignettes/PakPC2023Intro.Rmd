@@ -29,7 +29,13 @@ knitr::opts_chunk$set(
 
 # Introduction
 
-The [PakPC2023](https://github.com/myaseen208/PakPC2023) package contains data sets and functions for [Pakistan Population Census 2023](https://www.pbs.gov.pk/).
+The [Pakistan Bureau of Statistics (PBS)](https://www.pbs.gov.pk/)  holds the pivotal responsibility of orchestrating, collating, and disseminating the outcomes of the population census within the nation. On the significant date of August 5, 2023, the Council of Common Interests (CCI) accorded its approval for the findings derived from the Census of 2023, a comprehensive endeavor led by the PBS to capture the demographic landscape of Pakistan. To facilitate widespread access to this crucial data, the PBS published the conclusive results of the Census 2023 on its [official website](https://www.pbs.gov.pk/) in a PDF format, albeit one that is not machine-readable.
+
+However, this presentation in PDF form poses a significant challenge to researchers and analysts aiming to delve into the insights embedded within this valuable data. The intricacies of extracting, processing, and interpreting information from a non-machine-readable format like PDF hinder the swift utilization of this data for in-depth analysis. Recognizing this impediment, a strategic solution has been crafted in the form of an R programming language package termed [PakPC2023](https://github.com/myaseen208/PakPC2023).
+
+The [PakPC2023](https://github.com/myaseen208/PakPC2023) R package has been meticulously developed to surmount the obstacles presented by the non-machine-readable PDF format. This specialized software acts as a bridge, effectively converting the cumbersome PDF-based Census 2023 data into a format that is amenable for analysis within the R software environment. Researchers, analysts, and data enthusiasts can seamlessly install the [PakPC2023](https://github.com/myaseen208/PakPC2023) package from the Comprehensive R Archive Network (CRAN), a repository that serves as a hub for R packages, ensuring easy accessibility to this innovative tool.
+
+By implementing the [PakPC2023](https://github.com/myaseen208/PakPC2023) package, the door is opened for researchers to harness the power of the Census 2023 data in an efficient and effective manner. This strategic initiative not only streamlines the process of accessing and utilizing the census data but also empowers researchers to unlock valuable insights and trends that lie within, contributing to informed decision-making and comprehensive socio-economic understanding.
 
 
 ## Province Level
@@ -62,9 +68,6 @@ datatable(
     )
 ```
 
-<br>
-<br>
-<br>
 
 The visual representation presented in Figure \@ref(fig:Fig1) provides a comprehensive overview of the population distribution across various regions of Pakistan. This data has been meticulously collected from the Pakistan Population Census of 2023, serving as an accurate reflection of the demographic landscape of the country.
 
@@ -75,7 +78,6 @@ Turning our attention towards the remaining regions, Khyber Pakhtunkhwa stands a
 It is noteworthy that the data showcased in Figure \@ref(fig:Fig1) not only underscores the population sizes of these regions but also underscores the diversity and complexity of Pakistan's demographic distribution. This information serves as a valuable resource for policymakers, researchers, and anyone interested in gaining insights into the population dynamics of Pakistan.
 
 
-<br>
 <br>
 
 ```{r Fig1, fig.cap = "Population by Regions"}
