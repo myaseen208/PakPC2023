@@ -1,4 +1,4 @@
-## ----setup, include = FALSE-------------------------------------------------
+## ----setup, include = FALSE--------------------------------------------
 knitr::opts_chunk$set(
   collapse   = TRUE
 , echo       = FALSE
@@ -8,7 +8,7 @@ knitr::opts_chunk$set(
 , comment    = "#>"
 )
 
-## ---- results = 'asis'------------------------------------------------------
+## ----results = 'asis'--------------------------------------------------
 library(PakPC2023)
 # library(gt)
 # PakPC2023Pak %>% 
@@ -35,19 +35,19 @@ datatable(
     , digits   = 2
     )
 
-## ----Fig1, fig.cap = "Population by Regions"--------------------------------
-knitr::include_graphics("./images/Plot1.png")
+## ----Fig1, fig.cap = "Population by Regions"---------------------------
+knitr::include_graphics("./images/Plot1.webp")
 
-## ----Fig2, fig.cap = "Population by Regions & Area"-------------------------
-knitr::include_graphics("./images/Plot2.png")
+## ----Fig2, fig.cap = "Population by Regions & Area"--------------------
+knitr::include_graphics("./images/Plot2.webp")
 
-## ---- fig.cap = "Fig. 3: Average Annual Population Growth Rate by Regions"----
-knitr::include_graphics("./images/Plot11.png")
+## ----fig.cap = "Fig. 3: Average Annual Population Growth Rate by Regions"----
+knitr::include_graphics("./images/Plot11.webp")
 
-## ---- fig.cap = "Fig. 4: Average Annual Population Growth Rate by Regions & Area"----
-knitr::include_graphics("./images/Plot12.png")
+## ----fig.cap = "Fig. 4: Average Annual Population Growth Rate by Regions & Area"----
+knitr::include_graphics("./images/Plot12.webp")
 
-## ---- results = 'asis'------------------------------------------------------
+## ----results = 'asis'--------------------------------------------------
 datatable(
   data  = PakPC2023PakDiv
 , caption = htmltools::tags$caption(
@@ -68,13 +68,13 @@ datatable(
     , digits   = 2
     )
 
-## ---- fig.cap = "Fig. 5: Population by Regions & Division"------------------
-knitr::include_graphics("./images/Plot3.png")
+## ----fig.cap = "Fig. 5: Population by Regions & Division"--------------
+knitr::include_graphics("./images/Plot3.webp")
 
-## ---- fig.cap = "Fig. 6: Average Annual Population Growth Rate by Regions & Division"----
-knitr::include_graphics("./images/Plot13.png")
+## ----fig.cap = "Fig. 6: Average Annual Population Growth Rate by Regions & Division"----
+knitr::include_graphics("./images/Plot13.webp")
 
-## ---- results = 'asis'------------------------------------------------------
+## ----results = 'asis'--------------------------------------------------
 datatable(
   data  = PakPC2023PakDist
 , caption = htmltools::tags$caption(
@@ -95,27 +95,27 @@ datatable(
     , digits   = 2
     )
 
-## ---- fig.cap = "Fig. 7: Population by Division & District for Punjab"------
-knitr::include_graphics("./images/Plot4.png")
+## ----fig.cap = "Fig. 7: Population by Division & District for Punjab"----
+knitr::include_graphics("./images/Plot4.webp")
 
-## ---- fig.cap = "Fig. 8: Population by Division & District for Sindh"-------
-knitr::include_graphics("./images/Plot5.png")
+## ----fig.cap = "Fig. 8: Population by Division & District for Sindh"----
+knitr::include_graphics("./images/Plot5.webp")
 
-## ---- fig.cap = "Fig. 9: Population by Division & District for KP"----------
-knitr::include_graphics("./images/Plot6.png")
+## ----fig.cap = "Fig. 9: Population by Division & District for KP"------
+knitr::include_graphics("./images/Plot6.webp")
 
-## ---- fig.cap = "Fig. 10: Population by Division & District for Balochistan"----
-knitr::include_graphics("./images/Plot7.png")
+## ----fig.cap = "Fig. 10: Population by Division & District for Balochistan"----
+knitr::include_graphics("./images/Plot7.webp")
 
-## ---- fig.cap = "Fig. 11: Average Annual Population Growth Rate by Division & District for Punjab"----
-knitr::include_graphics("./images/Plot14.png")
+## ----fig.cap = "Fig. 11: Average Annual Population Growth Rate by Division & District for Punjab"----
+knitr::include_graphics("./images/Plot14.webp")
 
-## ---- fig.cap = "Fig. 12: Average Annual Population Growth Rate by Division & District for Sindh"----
-knitr::include_graphics("./images/Plot15.png")
+## ----fig.cap = "Fig. 12: Average Annual Population Growth Rate by Division & District for Sindh"----
+knitr::include_graphics("./images/Plot15.webp")
 
-## ---- fig.cap = "Fig. 13: Average Annual Population Growth Rate by Division & District for KP"----
-knitr::include_graphics("./images/Plot16.png")
+## ----fig.cap = "Fig. 13: Average Annual Population Growth Rate by Division & District for KP"----
+knitr::include_graphics("./images/Plot16.webp")
 
-## ---- fig.cap = "Fig. 14: Average Annual Population Growth Rate by Division & District for Balochistan"----
-knitr::include_graphics("./images/Plot17.png")
+## ----fig.cap = "Fig. 14: Average Annual Population Growth Rate by Division & District for Balochistan"----
+knitr::include_graphics("./images/Plot17.webp")
 

@@ -81,7 +81,7 @@ It is noteworthy that the data showcased in Figure \@ref(fig:Fig1) not only unde
 <br>
 
 ```{r Fig1, fig.cap = "Population by Regions"}
-knitr::include_graphics("./images/Plot1.png")
+knitr::include_graphics("./images/Plot1.webp")
 ```
 
 <br>
@@ -93,13 +93,13 @@ Notably, the data reveals that a substantial portion of Pakistan's population re
 
 Examining the regional disparities, the province of Punjab emerges as the leader in terms of rural population, boasting an impressive count of over 75.71 million inhabitants in rural settings. Sindh, on the other hand, leads the pack in urban population, hosting a significant urban community of over 29.92 million individuals.
 
-The visualization takes the form of a multiple bar chart, with distinctive colors assigned to each region for clarity. The y-axis of the chart is scaled to represent the total population in millions, providing a clear sense of the demographic distribution.
+p("The visualization takes the form of a multiple bar chart, with distinctive colors assigned to each region for clarity. The y-axis of the chart is scaled to represent the total population in millions, providing a clear sense of the demographic distribution.")
 
-The data presented within Figure \@ref(fig:Fig2) serves to accentuate the pronounced urban-rural divide prevalent within Pakistan. The statistics reaffirm the prevalence of rural living conditions, with Punjab standing out as the province with the highest rural population, surpassing the 75.71 million mark. The second spot in terms of rural population is claimed by Sindh, hosting more than 25.77 million residents in rural areas. In contrast, Balochistan registers as the province with the lowest rural population, counting slightly over 4.61 million individuals.
+p("The data presented within Figure \@ref(fig:Fig2) serves to accentuate the pronounced urban-rural divide prevalent within Pakistan. The statistics reaffirm the prevalence of rural living conditions, with Punjab standing out as the province with the highest rural population, surpassing the 75.71 million mark. The second spot in terms of rural population is claimed by Sindh, hosting more than 25.77 million residents in rural areas. In contrast, Balochistan registers as the province with the lowest rural population, counting slightly over 4.61 million individuals.")
 
-Shifting the focus to urban populations, Punjab once again takes the lead, this time in the urban category, as it accommodates a substantial urban populace exceeding 52.00 million. Sindh follows closely, contributing to the urban landscape with over 29.90 million inhabitants. In stark contrast, Khyber Pakhtunkhwa and Balochistan exhibit the smallest urban populations, each recording figures slightly surpassing 6.10 million and 4.60 million individuals, respectively.
+p("Shifting the focus to urban populations, Punjab once again takes the lead, this time in the urban category, as it accommodates a substantial urban populace exceeding 52.00 million. Sindh follows closely, contributing to the urban landscape with over 29.90 million inhabitants. In stark contrast, Khyber Pakhtunkhwa and Balochistan exhibit the smallest urban populations, each recording figures slightly surpassing 6.10 million and 4.60 million individuals, respectively.")
 
-In conclusion, Figure \@ref(fig:Fig2) casts a spotlight on the demographic distribution within Pakistan, drawing attention to the prevailing urban-rural divide. The robust presentation of data underscores the dominance of rural populations, particularly in provinces like Punjab and Sindh, while also providing valuable insights into the urban landscape across various regions of the country.
+p("In conclusion, Figure \@ref(fig:Fig2) casts a spotlight on the demographic distribution within Pakistan, drawing attention to the prevailing urban-rural divide. The robust presentation of data underscores the dominance of rural populations, particularly in provinces like Punjab and Sindh, while also providing valuable insights into the urban landscape across various regions of the country.")
 
 
 <br>
@@ -107,7 +107,7 @@ In conclusion, Figure \@ref(fig:Fig2) casts a spotlight on the demographic distr
 
 
 ```{r Fig2, fig.cap = "Population by Regions & Area"}
-knitr::include_graphics("./images/Plot2.png")
+knitr::include_graphics("./images/Plot2.webp")
 ```
 
 
@@ -115,7 +115,7 @@ knitr::include_graphics("./images/Plot2.png")
 <br>
 
 ```{r, fig.cap = "Fig. 3: Average Annual Population Growth Rate by Regions"}
-knitr::include_graphics("./images/Plot11.png")
+knitr::include_graphics("./images/Plot11.webp")
 ```
 
 
@@ -123,7 +123,7 @@ knitr::include_graphics("./images/Plot11.png")
 <br>
 
 ```{r, fig.cap = "Fig. 4: Average Annual Population Growth Rate by Regions & Area"}
-knitr::include_graphics("./images/Plot12.png")
+knitr::include_graphics("./images/Plot12.webp")
 ```
 
 
@@ -156,14 +156,14 @@ datatable(
 <br>
 
 ```{r, fig.cap = "Fig. 5: Population by Regions & Division"}
-knitr::include_graphics("./images/Plot3.png")
+knitr::include_graphics("./images/Plot3.webp")
 ```
 
 <br>
 <br>
 
 ```{r, fig.cap = "Fig. 6: Average Annual Population Growth Rate by Regions & Division"}
-knitr::include_graphics("./images/Plot13.png")
+knitr::include_graphics("./images/Plot13.webp")
 ```
 
 
@@ -198,7 +198,7 @@ datatable(
 <br>
 
 ```{r, fig.cap = "Fig. 7: Population by Division & District for Punjab"}
-knitr::include_graphics("./images/Plot4.png")
+knitr::include_graphics("./images/Plot4.webp")
 ```
 
 <br>
@@ -206,7 +206,7 @@ knitr::include_graphics("./images/Plot4.png")
 
 
 ```{r, fig.cap = "Fig. 8: Population by Division & District for Sindh"}
-knitr::include_graphics("./images/Plot5.png")
+knitr::include_graphics("./images/Plot5.webp")
 ```
 
 <br>
@@ -214,7 +214,7 @@ knitr::include_graphics("./images/Plot5.png")
 
 
 ```{r, fig.cap = "Fig. 9: Population by Division & District for KP"}
-knitr::include_graphics("./images/Plot6.png")
+knitr::include_graphics("./images/Plot6.webp")
 ```
 
 <br>
@@ -222,7 +222,7 @@ knitr::include_graphics("./images/Plot6.png")
 
 
 ```{r, fig.cap = "Fig. 10: Population by Division & District for Balochistan"}
-knitr::include_graphics("./images/Plot7.png")
+knitr::include_graphics("./images/Plot7.webp")
 ```
 
 <br>
@@ -230,7 +230,7 @@ knitr::include_graphics("./images/Plot7.png")
 
 
 ```{r, fig.cap = "Fig. 11: Average Annual Population Growth Rate by Division & District for Punjab"}
-knitr::include_graphics("./images/Plot14.png")
+knitr::include_graphics("./images/Plot14.webp")
 ```
 
 
@@ -239,7 +239,7 @@ knitr::include_graphics("./images/Plot14.png")
 
 
 ```{r, fig.cap = "Fig. 12: Average Annual Population Growth Rate by Division & District for Sindh"}
-knitr::include_graphics("./images/Plot15.png")
+knitr::include_graphics("./images/Plot15.webp")
 ```
 
 
@@ -248,7 +248,7 @@ knitr::include_graphics("./images/Plot15.png")
 
 
 ```{r, fig.cap = "Fig. 13: Average Annual Population Growth Rate by Division & District for KP"}
-knitr::include_graphics("./images/Plot16.png")
+knitr::include_graphics("./images/Plot16.webp")
 ```
 
 
@@ -257,7 +257,7 @@ knitr::include_graphics("./images/Plot16.png")
 
 
 ```{r, fig.cap = "Fig. 14: Average Annual Population Growth Rate by Division & District for Balochistan"}
-knitr::include_graphics("./images/Plot17.png")
+knitr::include_graphics("./images/Plot17.webp")
 ```
 
 

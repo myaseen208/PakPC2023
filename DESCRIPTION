@@ -3,16 +3,18 @@ Type: Package
 Title: Pakistan Population Census 2023
 Version: 0.2.0
 Authors@R: c(
-              person(c("Muhammad", "Yaseen"),  email = "myaseen208@gmail.com", role = c("aut", "cre"))
-            , person(c("Muhammad", "Arfan", "Dilber"),  email = "pbsfsd041@gmail.com", role = c("ctb"))
-            , person(c("Zahid", "Asghar"),  email = "g.zahid@gmail.com", role = c("ctb"))
+              person(c("Muhammad"), "Yaseen", email = "myaseen208@gmail.com",        role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-5923-1714"))
+            , person("Muhammad", "Arfan Dilber",  email = "pbsfsd041@gmail.com", role = c("ctb"))
+            , person("Zahid", "Asghar",  email = "g.zahid@gmail.com", role = c("ctb"))
             )
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
 Description: Provides data sets and functions for exploration of Pakistan Population Census 2023 (<https://www.pbs.gov.pk/>).
-Depends: R (>= 3.1)
+Depends: R (>= 4.0)
 License: GPL-2
 LazyData: TRUE
-RoxygenNote: 7.2.3
+LazyDataCompression: xz
+RoxygenNote: 7.3.2
+Encoding: UTF-8
 URL: https://github.com/myaseen208/PakPC2023
      https://myaseen208.com/PakPC2023/
 BugReports: https://github.com/myaseen208/PakPC2023/issues
@@ -20,10 +22,11 @@ Imports:
     DT,
     htmltools
 Suggests:
+    bookdown,
     knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
-Note: 1. Asian Development Bank (ADB), Islamabad, Pakistan.
-      2. Benazir Income Support Programme (BISP), Islamabad, Pakistan.
-      3. Department of Mathematics and Statistics, University of Agriculture Faisalabad, Faisalabad-Pakistan.
+Note: 1. School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA
+      2. Department of Mathematics & Statistics, University of Agriculture Faisalabad, Faisalabad, Pakistan
+
