@@ -91,3 +91,6 @@ To cite the methods in the package use:
 ```{r, comment = ""}
 citation("PakPC2023")
 ```
+
+## See also
+* For spatial visualisation of census data, see [pkmapr](https://abdullahumer1101.github.io/pkmapr/).

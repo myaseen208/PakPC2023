@@ -30,7 +30,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/PakPC2023?color=green)]
 [![Project Status:
 WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![Last-changedate](https://img.shields.io/badge/last%20change-2024--11--01-yellowgreen.svg)](https://github.com/myaseen208/PakPC2023)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2026--05--16-yellowgreen.svg)](https://github.com/myaseen208/PakPC2023)
 <!-- [![Rdoc](https://www.rdocumentation.org/badges/version/PakPC2023)](https://www.rdocumentation.org/packages/PakPC2023) -->
 
 ------------------------------------------------------------------------
@@ -91,3 +91,8 @@ A BibTeX entry for LaTeX users is
     journal = {The Comprehensive R Archive Network (CRAN)},
   }
 ```
+
+## See also
+
+- For spatial visualisation of census data, see
+  [pkmapr](https://abdullahumer1101.github.io/pkmapr/).
